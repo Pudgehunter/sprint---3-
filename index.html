@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint - 3</title>
+</head>
+
+<body>
+    <form id="myForm">
+        <input type="file" id="csvFile" accept=".csv" />
+        <br />
+        <input type="submit" value="Subir" />
+    </form>
+    <table>
+        <thead id="headings">
+            <tr>
+                <th id="Nombres">Nombre</th>
+                <th id="PIÑA">Piña</th>
+                <th id="TOCINETA">Tocineta</th>
+                <th id="MADURO">Maduro</th>
+                <th id="MAIZ">Maíz</th>
+                <th id="JAMON">Jamón</th>
+                <th id="POLLO">Pollo</th>
+                <th id="CHORIZO">Chorizo</th>
+                <th id="PEPPERONI">Pepperoni</th>
+                <th id="CHAMPIÑON">Champiñón</th>
+                <th id="TOMATE">Tomate</th>
+            </tr>
+        </thead>
+        <tbody id="results">
+
+        </tbody>
+    </table>
+    <select id="Name1"></select>
+    <input id="KNN" type="number" placeholder="Ingresa el K">
+    <button id="compare">Calcular KNN</button>
+    <p id="result">Selecciona un nombre, ingresa un K y haz click para conocer sus K vecinos más cercanos.</p>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
